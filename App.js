@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from "react-native";
 
 // Screen One
-// import Home from "./src/screenone/Home";
-// import Footer from "./src/resuable/Footer";
+import Home from "./src/screenone/Home";
+import Footer from "./src/resuable/Footer";
 
 // Screen Tow
 // import Home_2 from "./src/screentwo/Home_2";
@@ -13,16 +13,16 @@ import { StyleSheet, Text, View } from "react-native";
 // import Footer from "./src/resuable/Footer";
 
 // Screen Four
-import Home_4 from "./src/screenfour/Home_4";
-import Footer from "./src/resuable/Footer";
+// import Home_4 from "./src/screenfour/Home_4";
+// import Footer from "./src/resuable/Footer";
 
 export default function App() {
   return (
     <View>
       {/* 1. Screen One */}
       {/* Note Uncomment Screen One */}
-      {/* <Home /> */}
-      {/* <Footer /> */}
+      <Home />
+      <Footer />
 
       {/* 2. Screen Two */}
       {/* Then comment Screen One */}
@@ -39,8 +39,8 @@ export default function App() {
       {/* 4. Screen Four */}
       {/* Then comment Screen Three */}
       {/* And Uncomment Screen Four */}
-      <Home_4 />
-      <Footer />
+      {/* <Home_4 /> */}
+      {/* <Footer /> */}
     </View>
   );
 }
