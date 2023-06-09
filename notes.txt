@@ -1,0 +1,8 @@
+https://www.figma.com/file/6MevwgIBA3swx1erfq7MOr/Untitled?type=design&node-id=0-1
+
+
+
+//1 uncomment screen one 
+//2 and comment screent two
+
+just do like this screen by screen
